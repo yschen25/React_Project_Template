@@ -12,12 +12,6 @@
     "test": "jest --coverage",
     "test:single": "node ./node_modules/jest-single-file-coverage"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint"
-    }
-  },
   "jest": {
     "setupFiles": [
       "@testing-library/react/dont-cleanup-after-each",
